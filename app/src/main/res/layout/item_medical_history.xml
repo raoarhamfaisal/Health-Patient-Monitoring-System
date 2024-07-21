@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/itemIllness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Illness"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/itemMedication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medication"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/itemDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor's Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/itemDoctorContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor's Contact"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <ImageView
+        android:id="@+id/ivPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/itembtnDelete"
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103574881332",
+    "project_id": "patients-health-monitoring-app",
+    "storage_bucket": "patients-health-monitoring-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103574881332:android:2e3f12fb471dbbed017661",
+        "android_client_info": {
+          "package_name": "com.arham.patienthealthmonitoringsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxbUKg6vz4-F60vLP6OjxRYQtfWvHx1Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

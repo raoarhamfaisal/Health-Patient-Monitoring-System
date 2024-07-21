@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Patient Health Monitoring System</string>
+    <string name="add_history">Add History</string>
+    <string name="select_prescription">Select Prescription</string>
+    <string name="prescription_image">Prescription Image</string>
+    <string name="close_notification">Close Notification</string>
+</resources>
